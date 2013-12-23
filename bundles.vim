@@ -1,6 +1,6 @@
 " Bundels declaration
 Bundle 'ack.vim'
-Bundle 'vim-scripts/AutoComplPop'
+"Bundle 'vim-scripts/AutoComplPop'
 Bundle 'kien/ctrlp.vim'
 Bundle 'EasyMotion'
 Bundle 'tpope/vim-fugitive'
@@ -23,6 +23,8 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'bling/vim-airline'
 Bundle 'vim-scripts/virtualenv.vim'
 Bundle 'airblade/vim-gitgutter'
+Bundle 'davidhalter/jedi-vim'
+
 "
 " Bundels Configuration
 
