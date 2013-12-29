@@ -26,12 +26,13 @@ au BufNewFile,BufRead *.less set filetype=less
 au BufNewFile,BufRead *.coffe set filetype=coffe
 
 " Jinja syntax highlight (with plugin)
-"au BufNewFile,BufRead *.jinja set filetype=jinja
+au BufNewFile,BufRead *.jinja set filetype=jinja
 " Jinja syntax highlight (without plugin)
-au BufRead,BufNewFile *.jinja set filetype=htmldjango
+"au BufRead,BufNewFile *.jinja set filetype=htmldjango
 
 " Remove last spaces
 au BufWritePre *.py :%s/\s\+$//e
+au BufWritePre *.coffee :%s/\s\+$//e
 
 " Highlight last spaces
 highlight ExtraWhitespace ctermbg=red guibg=red
