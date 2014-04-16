@@ -5,7 +5,9 @@ Bundle 'mileszs/ack.vim'
 " Automatically opens popup menu for completions
 Bundle 'vim-scripts/AutoComplPop'
 " Using the jedi autocompletion library for VIM (Need community/python-jedi)
-Bundle 'davidhalter/jedi-vim'
+"Bundle 'davidhalter/jedi-vim'
+" Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box.
+"Bundle 'klen/python-mode'
 " Fuzzy file, buffer, mru, tag, etc finder
 Bundle 'kien/ctrlp.vim'
 " Vim motions on speed!
