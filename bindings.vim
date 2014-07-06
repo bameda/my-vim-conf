@@ -9,6 +9,12 @@ nmap <C-Down> :tabmove -1<CR>
 noremap <C-left> :bprev<CR>
 noremap <C-right> :bnext<CR>
 
+map <M-left> <C-w>h
+map <M-down> <C-w>j
+map <M-up> <C-w>k
+map <M-right> <C-w>l
+
+
 " The NERD Tree
 map <F2> :NERDTreeToggle<CR>
 
