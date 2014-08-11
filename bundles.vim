@@ -52,6 +52,8 @@ Bundle 'bling/vim-airline'
 Bundle 'vim-scripts/virtualenv.vim'
 " A Vim plugin which shows a git diff in the gutter (sign column).
 Bundle 'airblade/vim-gitgutter'
+" Jade syntax
+Bundle 'digitaltoad/vim-jade'
 
 
 "
