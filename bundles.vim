@@ -54,6 +54,8 @@ Bundle 'vim-scripts/virtualenv.vim'
 Bundle 'airblade/vim-gitgutter'
 " Jade syntax
 Bundle 'digitaltoad/vim-jade'
+" Sass syntax
+Bundle 'cakebaker/scss-syntax.vim'
 
 
 "
