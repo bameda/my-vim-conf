@@ -1,8 +1,12 @@
+set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 source ~/.vim/bundles.vim
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
 
 set smartindent
 set tabstop=4
@@ -10,8 +14,6 @@ set shiftwidth=4
 set expandtab
 
 filetype plugin on
-
-set nocompatible
 
 syntax on
 filetype plugin indent on
@@ -43,7 +45,6 @@ source ~/.vim/abbreviations.vim
 source ~/.vim/bindings.vim
 
 " Use skeletons
-au BufNewFile *.py 0r ~/.vim/skeleton/python.py
 au BufNewFile *.sh 0r ~/.vim/skeleton/script.sh
 
 set laststatus=2 " Always display the statusline in all windows
