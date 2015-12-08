@@ -24,11 +24,15 @@ au BufRead,BufNewFile *.vala,*.vapi setfiletype vala
 " Less syntax highlight
 au BufNewFile,BufRead *.less set filetype=less
 
+" sass syntax highlight
+au BufRead,BufNewFile *.scss set filetype=scss.css
+
 " CoffeScript syntax highlight
 au BufNewFile,BufRead *.coffe set filetype=coffe
 
 " Jinja syntax highlight (with plugin)
 au BufNewFile,BufRead *.jinja set filetype=jinja
+
 " Jinja syntax highlight (without plugin)
 "au BufRead,BufNewFile *.jinja set filetype=htmldjango
 

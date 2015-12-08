@@ -12,9 +12,6 @@ Bundle 'vim-scripts/AutoComplPop'
 Bundle 'kien/ctrlp.vim'
 " Vim motions on speed!
 "Bundle 'Lokaltog / vim-easymotion'
-" A Git wrapper so awesome, it should be illegal
-Bundle 'tpope/vim-fugitive'
-Bundle 'rhysd/committia.vim'
 " Graph your Vim undo tree in style
 Bundle 'vim-scripts/Gundo'
 " vim syntax for LESS (dynamic CSS)
@@ -41,22 +38,30 @@ Bundle 'nvie/vim-flake8'
 Bundle 'jespino/vim-rebtags'
 " Easy tags rebuilding on your project directory.
 "Bundle 'vim-scripts/rebtags'
+
 " A tree explorer plugin for navigating the filesystem
 Bundle 'vim-scripts/The-NERD-tree'
 " An up-to-date jinja2 syntax file
 Bundle 'Glench/Vim-Jinja2-Syntax'
 " CoffeeScript support for vim
 Bundle 'kchmck/vim-coffee-script'
-" lean & mean status/tabline for vim that's light as air
-Bundle 'bling/vim-airline'
-" Work with python virtualenvs within vim
-Bundle 'vim-scripts/virtualenv.vim'
-" A Vim plugin which shows a git diff in the gutter (sign column).
-Bundle 'airblade/vim-gitgutter'
 " Jade syntax
 Bundle 'digitaltoad/vim-jade'
 " Sass syntax
 Bundle 'cakebaker/scss-syntax.vim'
+
+" lean & mean status/tabline for vim that's light as air
+Bundle 'bling/vim-airline'
+
+" Work with python virtualenvs within vim
+Bundle 'vim-scripts/virtualenv.vim'
+
+" A Git wrapper so awesome, it should be illegal
+Bundle 'tpope/vim-fugitive'
+" Beautiful commit mesages view
+Bundle 'rhysd/committia.vim'
+" A Vim plugin which shows a git diff in the gutter (sign column).
+Bundle 'airblade/vim-gitgutter'
 
 
 "
