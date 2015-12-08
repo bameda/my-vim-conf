@@ -14,6 +14,7 @@ Bundle 'kien/ctrlp.vim'
 "Bundle 'Lokaltog / vim-easymotion'
 " A Git wrapper so awesome, it should be illegal
 Bundle 'tpope/vim-fugitive'
+Bundle 'rhysd/committia.vim'
 " Graph your Vim undo tree in style
 Bundle 'vim-scripts/Gundo'
 " vim syntax for LESS (dynamic CSS)
@@ -93,3 +94,12 @@ let g:airline_inactive_collapse=1
 let g:airline_theme='wombat'
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#branch#empty_message = ''
+
+" committia.vim
+let g:committia_hooks = {}
+function! g:committia_hooks.edit_open(info)
+    " If no commit message, start with insert mode
+    if a:info.vcs ==# 'git' && getline(1) ==# ''
+        startinsert
+    end
+endfunction
