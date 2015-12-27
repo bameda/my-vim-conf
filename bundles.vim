@@ -1,7 +1,5 @@
 " Bundels declaration
 
-" Vim plugin for the Perl module / CLI script 'ack' (Need community/ack)
-Bundle 'mileszs/ack.vim'
 " Automatically opens popup menu for completions
 Bundle 'vim-scripts/AutoComplPop'
 " Using the jedi autocompletion library for VIM (Need community/python-jedi)
@@ -39,6 +37,8 @@ Bundle 'jespino/vim-rebtags'
 " Easy tags rebuilding on your project directory.
 "Bundle 'vim-scripts/rebtags'
 
+" Vim plugin for the Perl module / CLI script 'ack' (Need community/ack)
+Bundle 'mileszs/ack.vim'
 " A tree explorer plugin for navigating the filesystem
 Bundle 'vim-scripts/The-NERD-tree'
 " An up-to-date jinja2 syntax file
