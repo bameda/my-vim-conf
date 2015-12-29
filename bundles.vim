@@ -4,8 +4,6 @@
 "Bundle 'davidhalter/jedi-vim'
 " Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box.
 "Bundle 'klen/python-mode'
-" Fuzzy file, buffer, mru, tag, etc finder
-Bundle 'kien/ctrlp.vim'
 " Vim motions on speed!
 "Bundle 'Lokaltog / vim-easymotion'
 " Graph your Vim undo tree in style
@@ -20,6 +18,8 @@ Bundle 'groenewege/vim-less'
 "Bundle 'msanders/snipmate.vim'
 " Sparkup for Vim like it's 2013
 "Bundle 'tristen/vim-sparkup'
+" Fuzzy file, buffer, mru, tag, etc finder
+Bundle 'kien/ctrlp.vim'
 " Quoting/parenthesizing made simple
 Bundle 'tpope/vim-surround'
 " Vim plugin that displays tags in a window, ordered by class etc
