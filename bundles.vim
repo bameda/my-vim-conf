@@ -6,8 +6,6 @@
 "Bundle 'klen/python-mode'
 " Vim motions on speed!
 "Bundle 'Lokaltog / vim-easymotion'
-" Graph your Vim undo tree in style
-Bundle 'vim-scripts/Gundo'
 " vim syntax for LESS (dynamic CSS)
 Bundle 'groenewege/vim-less'
 " A dummy text generator
@@ -18,6 +16,9 @@ Bundle 'groenewege/vim-less'
 "Bundle 'msanders/snipmate.vim'
 " Sparkup for Vim like it's 2013
 "Bundle 'tristen/vim-sparkup'
+
+" Graph your Vim undo tree in style
+Bundle 'vim-scripts/Gundo'
 " Fuzzy file, buffer, mru, tag, etc finder
 Bundle 'kien/ctrlp.vim'
 " Quoting/parenthesizing made simple
