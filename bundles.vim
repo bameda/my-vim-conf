@@ -6,8 +6,6 @@
 "Bundle 'klen/python-mode'
 " Vim motions on speed!
 "Bundle 'Lokaltog / vim-easymotion'
-" vim syntax for LESS (dynamic CSS)
-Bundle 'groenewege/vim-less'
 " A dummy text generator
 "Bundle 'vim-scripts/loremipsum'
 " Extended % matching for HTML, LaTeX, and many other languages
@@ -16,6 +14,12 @@ Bundle 'groenewege/vim-less'
 "Bundle 'msanders/snipmate.vim'
 " Sparkup for Vim like it's 2013
 "Bundle 'tristen/vim-sparkup'
+" Local marks usage more similar to other editors
+"Bundle 'vim-scripts/wokmarks.vim'
+" Vim plugin for rebuild tags files with ctags
+Bundle 'jespino/vim-rebtags'
+" Easy tags rebuilding on your project directory.
+"Bundle 'vim-scripts/rebtags'
 
 " Graph your Vim undo tree in style
 Bundle 'vim-scripts/Gundo'
@@ -29,27 +33,25 @@ Bundle 'majutsushi/tagbar'
 Bundle 'tomtom/tcomment_vim'
 " Flake8 plugin for Vim
 Bundle 'nvie/vim-flake8'
-" Local marks usage more similar to other editors
-"Bundle 'vim-scripts/wokmarks.vim'
-" Vim plugin for rebuild tags files with ctags
-Bundle 'jespino/vim-rebtags'
-" Easy tags rebuilding on your project directory.
-"Bundle 'vim-scripts/rebtags'
-
 " Vim plugin for the Perl module / CLI script 'ack' (Need community/ack)
 Bundle 'mileszs/ack.vim'
 " Automatically opens popup menu for completions
 Bundle 'vim-scripts/AutoComplPop'
 " A tree explorer plugin for navigating the filesystem
 Bundle 'vim-scripts/The-NERD-tree'
-" An up-to-date jinja2 syntax file
-Bundle 'Glench/Vim-Jinja2-Syntax'
-" CoffeeScript support for vim
+
+" CoffeeScript syntax
 Bundle 'kchmck/vim-coffee-script'
+" Typescript syntax
+Bundle 'leafgarland/typescript-vim'
+" jinja2 syntax
+Bundle 'Glench/Vim-Jinja2-Syntax'
 " Jade syntax
 Bundle 'digitaltoad/vim-jade'
 " Sass syntax
 Bundle 'cakebaker/scss-syntax.vim'
+" Less syntax
+Bundle 'groenewege/vim-less'
 
 " lean & mean status/tabline for vim that's light as air
 Bundle 'bling/vim-airline'
