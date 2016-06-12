@@ -14,6 +14,9 @@ map <M-down> <C-w>j
 map <M-up> <C-w>k
 map <M-right> <C-w>l
 
+" Fold/unfold
+nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR>
+vnoremap <Space> zf
 
 " The NERD Tree
 map <F2> :NERDTreeToggle<CR>
