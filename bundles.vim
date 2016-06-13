@@ -20,6 +20,8 @@
 Bundle 'jespino/vim-rebtags'
 " Easy tags rebuilding on your project directory.
 "Bundle 'vim-scripts/rebtags'
+" Improve Fold/Unfold for python code
+Plugin 'tmhedberg/SimpylFold'
 
 " Graph your Vim undo tree in style
 Bundle 'vim-scripts/Gundo'
@@ -69,6 +71,10 @@ Bundle 'airblade/vim-gitgutter'
 
 "
 " Bundels Configuration
+
+" SimpylFold Configuration
+autocmd BufWinEnter * silent! :%foldopen! " unfold all by default
+
 
 " CTRLP Configuration
 let g:ctrlp_map = '<c-p>'
