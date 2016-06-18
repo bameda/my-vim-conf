@@ -92,9 +92,6 @@ let g:ctrlp_extensions = ['tag', 'buffertag', 'quickfix', 'dir', 'rtscript',
 "" Easymotion configuration
 "let g:EasyMotion_leader_key = '\'
 
-" Flake 8 Configuration
-let g:flake8_max_line_length = 120
-
 " Vim-rebtags
 let g:rebtags_ctags_config_file = '.ctags'
 let g:rebtags_root_markers = ['.git', '.hg', '.svn', '.bzr', '_darcs', '.ctags']
