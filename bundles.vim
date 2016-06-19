@@ -56,7 +56,8 @@ Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'groenewege/vim-less'
 
 " lean & mean status/tabline for vim that's light as air
-Bundle 'bling/vim-airline'
+Bundle 'vim-airline/vim-airline'
+
 
 " Work with python virtualenvs within vim
 Bundle 'vim-scripts/virtualenv.vim'
@@ -103,7 +104,8 @@ let g:airline_detect_paste=1
 let g:airline_detect_iminsert=0
 let g:airline_inactive_collapse=1
 let g:airline_theme='wombat'
-let g:airline#extensions#branch#enabled = 1
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#branch#enabled = 0
 let g:airline#extensions#branch#empty_message = ''
 
 " committia.vim
