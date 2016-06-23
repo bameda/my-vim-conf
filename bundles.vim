@@ -17,7 +17,7 @@
 " Local marks usage more similar to other editors
 "Bundle 'vim-scripts/wokmarks.vim'
 " Vim plugin for rebuild tags files with ctags
-Bundle 'jespino/vim-rebtags'
+"Bundle 'jespino/vim-rebtags'
 " Easy tags rebuilding on your project directory.
 "Bundle 'vim-scripts/rebtags'
 " Improve Fold/Unfold for python code
@@ -95,9 +95,9 @@ let g:ctrlp_extensions = ['tag', 'buffertag', 'quickfix', 'dir', 'rtscript',
 "let g:EasyMotion_leader_key = '\'
 
 " Vim-rebtags
-let g:rebtags_ctags_config_file = '.ctags'
-let g:rebtags_root_markers = ['.git', '.hg', '.svn', '.bzr', '_darcs', '.ctags']
-let g:rebtags_extra_arguments = '--python-kinds --languages=python -R'
+"let g:rebtags_ctags_config_file = '.ctags'
+"let g:rebtags_root_markers = ['.git', '.hg', '.svn', '.bzr', '_darcs', '.ctags']
+"let g:rebtags_extra_arguments = '--python-kinds --languages=python -R'
 
 " Vim-airline
 let g:airline_detect_modified=1
