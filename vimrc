@@ -50,5 +50,6 @@ source ~/.vim/bindings.vim
 
 " Use skeletons
 au BufNewFile *.sh 0r ~/.vim/skeleton/script.sh
+au BufNewFile *.py 0r ~/.vim/skeleton/python.py
 
 set laststatus=2 " Always display the statusline in all windows
